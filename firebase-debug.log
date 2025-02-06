@@ -1,0 +1,97 @@
+[debug] [2025-02-03T14:14:13.407Z] ----------------------------------------------------------------------
+[debug] [2025-02-03T14:14:13.427Z] Command:       /root/.nvm/versions/node/v20.17.0/bin/node /root/.nvm/versions/node/v20.17.0/bin/firebase init
+[debug] [2025-02-03T14:14:13.431Z] CLI Version:   13.29.3
+[debug] [2025-02-03T14:14:13.432Z] Platform:      linux
+[debug] [2025-02-03T14:14:13.433Z] Node Version:  v20.17.0
+[debug] [2025-02-03T14:14:13.434Z] Time:          Mon Feb 03 2025 14:14:13 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-02-03T14:14:13.436Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-03T14:14:15.336Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-03T14:14:15.340Z] > authorizing via signed-in user (mbboy010@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /data/data/com.termux/files/home/next-app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-03T14:14:29.891Z] Using project from CLI flag: mb-reacting
+[debug] [2025-02-03T14:14:29.901Z] Checked if tokens are valid: true, expires at: 1738593980202
+[debug] [2025-02-03T14:14:29.903Z] Checked if tokens are valid: true, expires at: 1738593980202
+[debug] [2025-02-03T14:14:29.915Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mb-reacting [none]
+[debug] [2025-02-03T14:14:31.885Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mb-reacting 403
+[debug] [2025-02-03T14:14:31.888Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mb-reacting {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-02-03T14:14:31.895Z] Request to https://firebase.googleapis.com/v1beta1/projects/mb-reacting had HTTP Error: 403, The caller does not have permission
+[debug] [2025-02-03T14:14:32.445Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/mb-reacting had HTTP Error: 403, The caller does not have permission
+    at responseToError (/root/.nvm/versions/node/v20.17.0/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/root/.nvm/versions/node/v20.17.0/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project mb-reacting. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-02-03T16:21:54.567Z] ----------------------------------------------------------------------
+[debug] [2025-02-03T16:21:54.600Z] Command:       /root/.nvm/versions/node/v20.17.0/bin/node /root/.nvm/versions/node/v20.17.0/bin/firebase init
+[debug] [2025-02-03T16:21:54.604Z] CLI Version:   13.29.3
+[debug] [2025-02-03T16:21:54.605Z] Platform:      linux
+[debug] [2025-02-03T16:21:54.606Z] Node Version:  v20.17.0
+[debug] [2025-02-03T16:21:54.607Z] Time:          Mon Feb 03 2025 16:21:54 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-02-03T16:21:54.608Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-03T16:21:56.400Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-03T16:21:56.404Z] > authorizing via signed-in user (mbboy010@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /data/data/com.termux/files/home/next-app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-03T16:22:18.743Z] Using project from CLI flag: mb-reacting
+[debug] [2025-02-03T16:22:18.750Z] Checked if tokens are valid: false, expires at: 1738593980202
+[debug] [2025-02-03T16:22:18.752Z] Checked if tokens are valid: false, expires at: 1738593980202
+[debug] [2025-02-03T16:22:18.754Z] > refreshing access token with scopes: []
+[debug] [2025-02-03T16:22:18.767Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-02-03T16:22:18.768Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-02-03T16:22:20.117Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-02-03T16:22:20.119Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-02-03T16:22:20.148Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mb-reacting [none]
+[debug] [2025-02-03T16:22:21.245Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mb-reacting 403
+[debug] [2025-02-03T16:22:21.246Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mb-reacting {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-02-03T16:22:21.253Z] Request to https://firebase.googleapis.com/v1beta1/projects/mb-reacting had HTTP Error: 403, The caller does not have permission
+[debug] [2025-02-03T16:22:22.133Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/mb-reacting had HTTP Error: 403, The caller does not have permission
+    at responseToError (/root/.nvm/versions/node/v20.17.0/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/root/.nvm/versions/node/v20.17.0/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project mb-reacting. Please make sure the project exists and your account has permission to access it.

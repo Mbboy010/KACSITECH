@@ -1,0 +1,51 @@
+.newanimate{
+  animation: ani 4s linear infinite 
+}
+.newanimat{
+  animation: ani 4s linear infinite ;
+  animation-delay: 1s
+  
+}
+
+.cousss {
+animation: ai 4s linear infinite 
+}
+.dots {
+animation: i 4s linear infinite 
+}
+
+
+@keyframes ai{
+  0%{
+    background-color: #edebebcc;
+  }
+  50%{
+    background-color: #68686893;
+  }
+  
+}
+@keyframes i{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  
+}
+
+@keyframes ani{
+  0%{
+    transform: translateX(-10vw);
+  }
+  
+  30%{
+    transform: translateX(10vw);
+  }
+  50%{
+    transform: translateX(10vw);
+  }
+  40%{
+    transform: translateX(-10vw);
+  }
+}
